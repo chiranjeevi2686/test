@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="demoTest" parallel="tests" thread-count="3">
+     
+
+   <test name="demoTest">
+       <packages>
+            <package name="com.demo.testcase"/>
+            
+        </packages>
+    </test>
+</suite>
